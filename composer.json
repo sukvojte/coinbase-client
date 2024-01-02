@@ -1,0 +1,17 @@
+{
+    "name": "sukvojte/coinbase-client",
+    "type": "lib",
+    "description": "Coinbase REST API client.",
+    "keywords": ["coinbase"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "firebase/php-jwt": "^6.10",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sukvojte\\Coinbase\\": "src/"
+        }
+    }
+}
